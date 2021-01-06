@@ -377,7 +377,7 @@ var viewingAns = 0;
 var correctAnswers = 0;
 var quizOver = false;
 var iSelectedAnswer = [];
-    var c=1205;
+    var c=600;
     var t;
 $(document).ready(function () 
 {
@@ -598,7 +598,7 @@ function hideScore()
 function viewResults() 
 {
 
-    if(currentQuestion == 10) { currentQuestion = 0;return false; }
+    if(currentQuestion == 20) { currentQuestion = 0;return false; }
     if(viewingAns == 1) { return false; }
 
     hideScore();
